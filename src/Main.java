@@ -66,6 +66,12 @@ public class Main {
 
         System.out.println();
         System.out.println(myMessage.replace("-", "&"));
+
+        int i = 6, j = 8;
+        int result = i * j;
+        System.out.println(String.valueOf(result));
+        String output = i + " * ";
+        System.out.println(output);
     }
 
     static String generateRandomString(int l) {
