@@ -41,6 +41,10 @@ public class Main {
         String charStr = String.valueOf(ch);
         System.out.println(charStr);
 
+        int myNum = 1000;
+        String myNumStr = String.valueOf(myNum);
+        System.out.println(myNumStr);
+
         String concatStr = charStr.concat("ef");
         System.out.println(concatStr);
 
